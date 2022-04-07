@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <title>base64 encoder/decoder</title>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="text-center">
+                <h2>base64 encoder and decoder</h2>
+            </div>
+            <div class="row justify-content-center my-6">
+                <div class="col-lg-7">
+                    <form action="">
+                        <label for="original-text">Original Text</label>
+                        <textarea
+                            name="original-text"
+                            id="original-text"
+                            cols="30"
+                            rows="5"
+                            class="form-control"></textarea>
+                        
+                        <label for="b64-text">BASE64</label>
+                        <textarea
+                            name="b64-text"
+                            id="b64-text"
+                            cols="30"
+                            rows="10"
+                            class="form-control"></textarea>
+                        
+                        <div class="text-left">
+                            <button type="submit" class="btn btn-primary">Encode</button>
+                            <button type="submit" class="btn btn-primary">Decode</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous"></script>
+    </body>
+</html>
